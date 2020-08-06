@@ -1,7 +1,7 @@
 # zsh-git-flow-avh-aliases
 ZSH Git Flow aliases
 
-## Instalation
+## Installation
 ```zsh
 zplug "nekofar/zsh-git-flow-avh-aliases"
 ```
