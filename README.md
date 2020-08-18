@@ -20,8 +20,6 @@ there is more convenient alias:
 
 #### zplug
 
----
-
 1. Add the following to your `.zshrc`:
 
    ```zsh
@@ -32,8 +30,6 @@ there is more convenient alias:
 
 #### Antigen
 
----
-
 1. Add the following to your `.zshrc`:
 
    ```zsh
@@ -43,8 +39,6 @@ there is more convenient alias:
 2. Start a new terminal session.
 
 #### Oh My Zsh
-
----
 
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
