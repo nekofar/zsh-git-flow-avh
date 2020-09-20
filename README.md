@@ -18,6 +18,20 @@ there is more convenient alias:
 
 ## Installation
 
+### Package
+
+1. It is available on Homebrew. Run:
+
+  ```
+  brew install nekofar/tap/zsh-git-flow-avh
+  ```
+
+2. Follow the post-install instructions logged to the terminal.
+
+
+### Plugin
+You can install it with a zsh plugin manager. Each has their own way of doing things. See your package manager's documentation.
+
 #### zplug
 
 1. Add the following to your `.zshrc`:
