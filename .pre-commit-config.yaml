@@ -2,18 +2,19 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.4.0
+    rev: v3.3.0
     hooks:
-      - id: no-commit-to-branch
-        args: [-b master]
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
-      - id: check-json
       - id: check-added-large-files
+      - id: no-commit-to-branch
+        args: [-b master]
+      - id: check-xml
+      - id: check-json
       - id: check-merge-conflict
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.13.1
+    rev: v0.14.0
     hooks:
       - id: gitlint
         stages: [commit-msg]
