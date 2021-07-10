@@ -1,4 +1,11 @@
 # Changelog
+## [1.2.0](https://github.com/nekofar/zsh-git-flow-avh/compare/v1.1.0...v1.2.0) (2021-07-10)
+
+
+### Features
+
+* add new aliases to access sub-commands helps ([e7bc8b6](https://github.com/nekofar/zsh-git-flow-avh/commit/e7bc8b6e097e60c99833903b9710c2378822c345))
+
 ## [1.1.0](https://github.com/nekofar/zsh-git-flow-avh/compare/v1.0.1...v1.1.0) (2020-11-09)
 
 

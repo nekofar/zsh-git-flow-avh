@@ -1,7 +1,7 @@
 {
   "header": "# Changelog",
   "skip": {
-    "commit": true,
+    "commit": false,
     "tag": true
   },
   "scripts": {
