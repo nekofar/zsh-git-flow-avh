@@ -2,7 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [1.2.3] - 2023-05-18
+
+### Miscellaneous Tasks
+
+- Replace `standard-version` by `git-clif` for changelog
+
+### Build
+
+- Bump actions/checkout from 3.0.0 to 3.0.1
+
+### Ci
+
+- Bump actions/checkout from 3.0.1 to 3.0.2
+- Bump pre-commit/action from 2.0.3 to 3.0.0
+- Bump actions/setup-python from 3.1.2 to 4.0.0
+- Specify python version for `setup-python`
+- Bump actions/setup-python from 4.0.0 to 4.1.0
+- Bump actions/setup-python from 4.1.0 to 4.2.0
+- Bump actions/setup-python from 4.2.0 to 4.3.1
+- Bump actions/setup-python from 4.3.1 to 4.5.0
+- Bump actions/checkout from 3.0.2 to 3.3.0
+- Bump actions/checkout from 3.3.0 to 3.5.2 (#25)
+- Bump actions/setup-python from 4.5.0 to 4.6.0 (#26)
+
+## [1.2.2] - 2022-04-17
+
+### Documentation
+
+- Update the changelog file
 
 ### Styling
 
