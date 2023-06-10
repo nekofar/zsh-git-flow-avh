@@ -2,17 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.4] - 2023-06-10
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-python from 4.6.0 to 4.6.1 
+- Bump actions/checkout from 3.5.2 to 3.5.3 
+
 ## [1.2.3] - 2023-05-18
 
-### Miscellaneous Tasks
-
-- Replace `standard-version` by `git-clif` for changelog
-
-### Build
+### <!-- 06 -->Build Environment
 
 - Bump actions/checkout from 3.0.0 to 3.0.1
 
-### Ci
+### <!-- 07 -->Continuous Integrations
 
 - Bump actions/checkout from 3.0.1 to 3.0.2
 - Bump pre-commit/action from 2.0.3 to 3.0.0
@@ -23,25 +26,22 @@ All notable changes to this project will be documented in this file.
 - Bump actions/setup-python from 4.2.0 to 4.3.1
 - Bump actions/setup-python from 4.3.1 to 4.5.0
 - Bump actions/checkout from 3.0.2 to 3.3.0
-- Bump actions/checkout from 3.3.0 to 3.5.2 (#25)
-- Bump actions/setup-python from 4.5.0 to 4.6.0 (#26)
+- Bump actions/checkout from 3.3.0 to 3.5.2 
+- Bump actions/setup-python from 4.5.0 to 4.6.0 
+- Change `open-pull-requests-limit` from 10 to 20
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Replace `standard-version` by `git-clif` for changelog
 
 ## [1.2.2] - 2022-04-17
 
-### Documentation
-
-- Update the changelog file
-
-### Styling
-
-- Remove triling whitespace over dependabot config
-
-### Build
+### <!-- 06 -->Build Environment
 
 - Bump actions/setup-python from 3.0.0 to 3.1.0
 - Bump actions/setup-python from 3.1.0 to 3.1.2
 
-### Ci
+### <!-- 07 -->Continuous Integrations
 
 - Update `actions/checkout` from v2.x.x to v3.0.0
 - Bump `actions/setup-python` from 2.x.x to 3.0.0
@@ -49,51 +49,46 @@ All notable changes to this project will be documented in this file.
 
 ## [1.2.1] - 2022-03-02
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add custom templates for issue types
 
-### Ci
+### <!-- 07 -->Continuous Integrations
 
 - Add a configuration file for `dependabot`
 - Add new `pre-commit` github workflow`
 
 ## [1.2.0] - 2021-07-10
 
-### Features
+### <!-- 01 -->Features
 
 - Add new aliases to access sub-commands helps
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - 1.2.0
 
 ## [1.1.0] - 2020-11-09
 
-### Documentation
-
-- Update version to v1.1.0
-
-### Features
+### <!-- 01 -->Features
 
 - Add some useful aliases
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update pre-commit and standard version configs
 
 ## [1.0.1] - 2020-09-28
 
-### Bug Fixes
+### <!-- 02 -->Bug Fixes
 
 - Remove useles aliass
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add brew installation instructions
-- Add empty file
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add versionrc config file
 - Add pre-commit config file
